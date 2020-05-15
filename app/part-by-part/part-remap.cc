@@ -33,7 +33,6 @@
 /* -------------------------------------------------------------------------- */
 namespace entity {
   auto const cell = Wonton::Entity_kind::CELL;
-  auto const node = Wonton::Entity_kind::NODE;
 
   // entities parts pair data
   struct part {

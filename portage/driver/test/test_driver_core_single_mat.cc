@@ -4,6 +4,9 @@ Please see the license file at the root of this repository, or at:
     https://github.com/laristra/portage/blob/master/LICENSE
 */
 
+// this should be included prior to the use of Portage macros
+#include "portage/support/portage.h"
+
 #ifdef HAVE_TANGRAM
 
 #include <iostream>
@@ -30,8 +33,6 @@ Please see the license file at the root of this repository, or at:
 #include "JaliState.h"
 
 #include "portage/driver/coredriver.h"
-
-#include "portage/support/portage.h"
 
 double TOL = 1e-6;
 
